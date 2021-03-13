@@ -1,5 +1,6 @@
 {
   "parserOptions": {
+    "ecmaVersion": 2015,
     "sourceType": "module"
   },
   "globals": {
@@ -8,7 +9,8 @@
     "DataView": true,
     "Promise": true,
     "Symbol": true,
-    "Uint8Array": true
+    "Uint8Array": true,
+    "globalThis": true
   },
   "extends": [
     "plugin:github/browser"
